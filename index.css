@@ -1,0 +1,290 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+.dogumGunu{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+    .dogumGunu .yazilar{
+        width: 100%;
+        height: 48vh;
+        background: #1f4037;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #99f2c8, #1f4037);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #99f2c8, #1f4037); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+position: relative;}
+        .dogumGunu .yazilar .sekil {
+position: absolute;
+        }
+        .dogumGunu .yazilar .sekil .ask{
+            width: 300px;
+            height: 40vh;
+            z-index: 2;
+        }
+        .dogumGunu .yazilar .sekil .yazi{
+background-color: black;
+color: white;
+position: absolute;
+top: 75%;
+width: 200px;
+left: 13%;
+padding: 10px;
+border-radius: 8px;
+
+            }
+.border{
+    width: 100%;
+    height: 2px;
+    border: 1px solid red;
+}
+
+.ikicihisse{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sensizheckimem{
+    width: 100%;
+        height: 48vh;
+        background: #f953c6;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #b91d73, #f953c6);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #b91d73, #f953c6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+position: relative;
+}
+.basiciynimde{
+    position: absolute;
+}
+.sensizlik{
+    width: 300px;
+    height: 40vh;
+}
+.uccuhisse{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hemisegul{
+    width: 100%;
+    height: 48vh;
+    background: #654ea3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #eaafc8, #654ea3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #eaafc8, #654ea3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+position: relative;
+}
+.guluseksikolmasin{
+    position: absolute;
+}
+.belegulmezalim{
+width: 300px;
+height: 40vh;
+}
+.yazigul{
+background-color: #654ea3;
+position: absolute;
+width: 250px;
+top: 70%;
+border-radius: 8px;
+
+}
+.dordcuhisse{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.senicoxqirmisam{
+    width: 100%;
+    height: 48vh;
+    background: #159957;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #155799, #159957);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #155799, #159957); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+position: relative;
+}
+.qirilmanolar{
+position: absolute;
+}
+.biz{
+width: 300px;
+height: 40vh;
+}
+.yaziBiz{
+background-color: white;
+position: absolute;
+width: 250px;
+top: 70%;
+border-radius: 8px;
+
+}
+.bescihisse{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.basindanopdum{
+    width: 100%;
+    height: 48vh;
+    background: #30E8BF;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FF8235, #30E8BF);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FF8235, #30E8BF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+    
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+position: relative;
+}
+.gozlerinequrban{
+position: absolute;
+}
+.opdum{
+width: 300px;
+height: 40vh;
+}
+.yaziBasindanOpduyum{
+position: absolute;
+background-color: #1f4037;
+top: 65%;
+width: 250px;
+border-radius: 8px;
+color: wheat;
+}
+.alticihisse{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tatlisim{
+    width: 100%;
+    height: 48vh;
+    background: #f4c4f3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fc67fa, #f4c4f3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fc67fa, #f4c4f3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+position: relative;
+}
+.elinuzunde{
+position: absolute;
+}
+.tatlisel{
+width: 300px;
+height: 40vh;
+}
+.yaziTatlis{
+width: 250px;
+position: absolute;
+top: 65%;
+border-radius: 8px;
+background-color: #159957;
+}
+.yeddicihisse{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cocugum{
+    width: 100%;
+    height: 48vh;
+    background: #3a6186;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #89253e, #3a6186);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #89253e, #3a6186); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+position: relative;
+}
+.cocukluk{
+position: absolute;
+}
+.bebegim{
+width: 300px;
+height: 40vh;
+
+}
+.yaziCocukluk{
+position: absolute;
+width: 250px;
+top: 65%;
+background-color: #3a6186;
+border-radius: 8px;
+}
+.sonhisse{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mahnimiz{
+    width: 100%;
+    height: 68vh;
+    background: #3a6186;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #89253e, #3a6186);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #89253e, #3a6186); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+position: relative;
+}
+.senisevirem{
+position: absolute;
+top: 5%;
+}
+.mahni{
+width: 300px;
+height: 40vh;
+}
+.yaziMahni{
+top: 70%;
+position: absolute;
+}
